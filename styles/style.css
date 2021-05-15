@@ -74,11 +74,13 @@ section {
 .bio {
     background-color: rgba(54, 98, 116, 0.808);
     box-shadow: 6px 10px rgba(75, 14, 87, 0.747);
+        width: 70%;
 }
 
 .portfolio {
     background-color: rgba(54, 98, 116, 0.808);
-    box-shadow: 6px 10px rgba(75, 14, 87, 0.747)
+    box-shadow: 6px 10px rgba(75, 14, 87, 0.747);
+    width: 70%;
 }
 .socials {
     border-radius: 40px;
