@@ -40,11 +40,18 @@ header {
     margin-left: 4%;
 }
 
-#title {
+.title {
     margin-top: -2.5%;
     margin-left: 10%;
     font-weight: bolder;
 }
+
+.location {
+    margin-top: -2.3%;
+    margin-left: 28.5%;
+    font-weight: bolder;
+}
+
 main {
     display: flex;
     flex-direction: column;
@@ -163,6 +170,7 @@ img {
     height: 45px;
     width: auto;
     margin-top: -8%;
+    opacity: 50% ;
 }
 
 h2 {
