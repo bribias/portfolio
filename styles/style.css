@@ -25,6 +25,7 @@ body {
 header {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     padding-top: var(--gutter);
     padding-bottom: var(--gutter);
     margin-top: var(--gutter);
@@ -33,25 +34,25 @@ header {
 
 .name {
     font-family: 'streamster';
-    font-size: 5em;
-    color: rgba(129, 5, 160, 0.815);
-    text-shadow: 5px 5px 10px rgba(134, 170, 204, 0.808);
+    font-size: 7em;
+    color: rgba(221, 14, 159, 0.671);
+    text-shadow: 5px 5px 10px rgba(19, 23, 255, 0.925);
     margin-left: 4%;
 }
 
 #title {
-    margin-top: -1.8%;
-    margin-left: 8%;
+    margin-top: -2.5%;
+    margin-left: 10%;
     font-weight: bolder;
 }
 main {
     display: flex;
     flex-direction: column;
-    justify-content:safe;
-    align-items:center;
+    justify-content: center;
+    align-items: center;
 }
 
-section, article {
+section {
     border-radius: 40px;
     max-width: 60%;
     display: flex;
@@ -64,23 +65,10 @@ section, article {
     margin-bottom: var(--gutter);
     border: solid 2px var(--color1);
     color: rgba(255, 255, 255, 0.795);
+    padding:  15px;
 }
 
 
-footer {
-    display: flex;
-    justify-content: flex-end;
-    background-color: var(--color3);
-    box-shadow: var(--shadow);
-    height: 25px;
-}
-
-h2 {
-    font-family: 'VCROSDMono';
-    text-shadow: 2px 2px 5px rgb(166, 198, 207);
-    font-size: 1.8rem;
-    font-weight: bold;
-}
 
 .bio {
     background-color: rgba(54, 98, 116, 0.808);
@@ -96,6 +84,11 @@ h2 {
     width: 70%;
     background-color: rgba(54, 98, 116, 0.808);
     box-shadow: 6px 10px rgba(75, 14, 87, 0.747)
+}
+
+a {
+    text-shadow: 4px 4px 5px rgba(255, 255, 255, 0.795);
+    color:  rgb(177, 16, 155);
 }
 
 @font-face {
@@ -126,4 +119,44 @@ h2 {
        url('../fonts/VCROSDMono.woff') format('woff'), /* Pretty Modern Browsers */
        url('../fonts/VCROSDMono.ttf')  format('truetype'), /* Safari, Android, iOS */
        url('../fonts/VCROSDMono.svg') format('svg'); /* Legacy iOS */
+}
+
+
+footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    height: var(--footer-height);
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--color3);
+    box-shadow: var(--shadow);
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.right {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+img {
+    width: 100px;
+}
+
+.top-right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: -8%;
+}
+
+#vercel {
+    height: 65px;
+    width: auto;
 }
