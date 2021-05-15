@@ -13,27 +13,50 @@ body {
     --color4: hsla(45, 73%, 98%, 1);
     --color5: hsla(224, 40%, 79%, 1); */
     
-    --header-height: 80px;
-    --shadow: 0px 10px 20px -12px rgba(0,0,0,0.45);
-    --gutter: 30px;
-    --footer-height: 25px;
-    
-    font-family: 'Titillium Web', sans-serif;
-    background-color: var(--color2);
+    --gutter: 15px;
+
+    font-family: monospace;
+    background-image: url('../assets/BLACK_BACKGROUND_MAR_19_EEZY_06.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Larabiefont';
+    color: rgba(255, 255, 255, 0.795)
 }
 
+header {
+    display: flex;
+    flex-direction: column;
+    padding-top: var(--gutter);
+    padding-bottom: var(--gutter);
+    margin-top: var(--gutter);
+    margin-bottom: var(--gutter);
+}
+
+.name {
+    font-family: 'streamster';
+    font-size: 5em;
+    color: rgba(129, 5, 160, 0.815);
+    text-shadow: 5px 5px 10px rgba(134, 170, 204, 0.808);
+    margin-left: 4%;
+}
+
+#title {
+    margin-top: -1.8%;
+    margin-left: 8%;
+    font-weight: bolder;
+}
 main {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: calc(var(--footer-height));
+    justify-content:safe;
+    align-items:center;
 }
 
-section {
-    background-color: var(--color5);
-    width: 1000px;
-    max-width: 80%;
+section, article {
+    border-radius: 40px;
+    max-width: 60%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -43,71 +66,37 @@ section {
     margin-top: var(--gutter);
     margin-bottom: var(--gutter);
     border: solid 2px var(--color1);
+    color: rgba(255, 255, 255, 0.795);
 }
 
-header {
-    display: flex;
-    justify-content: flex-end;
-    background-color: var(--color3);
-    height: var(--header-height);
-    box-shadow: var(--shadow);
-}
 
 footer {
     display: flex;
     justify-content: flex-end;
     background-color: var(--color3);
     box-shadow: var(--shadow);
+    height: 25px;
 }
 
-
 h2 {
+    font-family: 'VCR OSD Mono';
+    text-shadow: 2px 2px 5px rgb(166, 198, 207);
     font-size: 1.8rem;
     font-weight: bold;
 }
 
-.gutter-right {
-    margin-right: 20px;
+.bio {
+    background-color: rgba(54, 98, 116, 0.808);
+    box-shadow: 6px 10px rgba(75, 14, 87, 0.747);
 }
 
-.main-logo {
-    animation: pulse 5s infinite ease-in-out;
+.portfolio {
+    background-color: rgba(54, 98, 116, 0.808);
+    box-shadow: 6px 10px rgba(75, 14, 87, 0.747)
 }
-
-header img {
-    height: var(--header-height);
+.socials {
+    border-radius: 40px;
+    width: 70%;
+    background-color: rgba(54, 98, 116, 0.808);
+    box-shadow: 6px 10px rgba(75, 14, 87, 0.747)
 }
-
-p {
-    margin: var(--gutter);
-}
-  
-footer {
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-    height: var(--footer-height);
-    display: flex;
-    justify-content: flex-end;
-    background-color: var(--color3);
-    box-shadow: var(--shadow);
-}
-  
-  @keyframes pulse {
-    20% {
-      transform: rotate3d(-10, -10, -10, 50deg) scale(1.2);
-    }
-
-    40% {
-        transform: rotate3d(10, 10, -10, 50deg) scale(1);
-    }
-
-    60% {
-        transform: rotate3d(-10, 10, 10, 50deg) scale(1.2);
-      }
-
-    80% {
-        transform: rotate3d(10, 10, 10, 50deg) scale(1);
-    }
-
-  }
