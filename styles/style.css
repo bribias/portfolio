@@ -72,21 +72,21 @@ section {
 
 
 .bio {
-    background-color: rgba(54, 98, 116, 0.808);
-    box-shadow: 6px 10px rgba(75, 14, 87, 0.747);
-        width: 70%;
+    background-color: rgba(54, 98, 116, 0.514);
+    box-shadow: 6px 6px 10px rgba(75, 14, 87, 0.747);
+    width: 70%;
 }
 
 .portfolio {
-    background-color: rgba(54, 98, 116, 0.808);
-    box-shadow: 6px 10px rgba(75, 14, 87, 0.747);
+    background-color: rgba(54, 98, 116, 0.514);
+    box-shadow: 6px 6px 10px rgba(75, 14, 87, 0.747);
     width: 70%;
 }
 .socials {
     border-radius: 40px;
     width: 70%;
-    background-color: rgba(54, 98, 116, 0.808);
-    box-shadow: 6px 10px rgba(75, 14, 87, 0.747)
+    background-color: rgba(54, 98, 116, 0.514);
+    box-shadow: 6px 6px 10px rgba(75, 14, 87, 0.747);
 }
 
 a {
@@ -162,6 +162,7 @@ img {
 #vercel {
     height: 45px;
     width: auto;
+    margin-top: -8%;
 }
 
 h2 {
