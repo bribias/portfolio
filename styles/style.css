@@ -160,3 +160,10 @@ img {
     height: 45px;
     width: auto;
 }
+
+h2 {
+    font-family: 'VCROSDMono';
+    text-shadow: 3px 3px 5px rgba(229, 29, 255, 0.904);
+    font-size: 35px;
+    margin-top: -1%;
+}
