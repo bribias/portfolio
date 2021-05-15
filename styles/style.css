@@ -1,4 +1,3 @@
-
 body {
     /* https://coolors.co/generate and click export -> scss to get the colors to copy and paste below*/
     /* --color1: hsla(349, 69%, 76%, 1);
@@ -14,8 +13,6 @@ body {
     --color5: hsla(224, 40%, 79%, 1); */
     
     --gutter: 15px;
-
-    font-family: monospace;
     background-image: url('../assets/BLACK_BACKGROUND_MAR_19_EEZY_06.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -79,7 +76,7 @@ footer {
 }
 
 h2 {
-    font-family: 'VCR OSD Mono';
+    font-family: 'VCROSDMono';
     text-shadow: 2px 2px 5px rgb(166, 198, 207);
     font-size: 1.8rem;
     font-weight: bold;
@@ -109,4 +106,24 @@ h2 {
        url('../fonts/LarabiefontRg-Regular.woff') format('woff'), /* Pretty Modern Browsers */
        url('../fonts/LarabiefontRg-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
        url('../fonts/LarabiefontRg-Regular.svg') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+    font-family: 'Streamster';
+    src: url('../fonts/Streamster.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/Streamster.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/Streamster.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/Streamster.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/Streamster.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/Streamster.svg') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+    font-family: 'VCROSDMono';
+    src: url('../fonts/VCROSDMono.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/VCROSDMono.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/VCROSDMono.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/VCROSDMono.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/VCROSDMono.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/VCROSDMono.svg') format('svg'); /* Legacy iOS */
 }
