@@ -36,7 +36,7 @@ header {
     font-family: 'streamster';
     font-size: 7em;
     color: rgba(221, 14, 159, 0.671);
-    text-shadow: 5px 5px 10px rgba(19, 23, 255, 0.925);
+    text-shadow: 5px 5px 10px rgba(19, 200, 255, 0.925);
     margin-left: 4%;
 }
 
@@ -97,8 +97,8 @@ section {
 }
 
 a {
-    text-shadow: 4px 4px 5px rgba(255, 255, 255, 0.795);
-    color:  rgb(177, 16, 155);
+    color: rgba(221, 14, 159, 0.671);
+    text-shadow: 5px 5px 10px rgba(19, 200, 255, 0.925);
 }
 
 @font-face {
