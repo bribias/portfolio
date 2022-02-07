@@ -13,14 +13,15 @@ body {
     --color5: hsla(224, 40%, 79%, 1); */
     
     --gutter: 15px;
-    background-image: url('../assets/BLACK_BACKGROUND_MAR_19_EEZY_06.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    font-family: 'Larabiefont';
-    color: rgba(255, 255, 255, 0.795)
+    text-align: center;
+  background-color: #00517d;
+  background-image: linear-gradient(169deg, #00517d 18%, #4cc7cd 47%, #6c14dc 66%, #d544f8 95%);
+  background-attachment: fixed;
+  height: 100%;
+  width: 100%;
+  margin: 0;
 }
+
 
 header {
     display: flex;
