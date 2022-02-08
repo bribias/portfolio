@@ -34,7 +34,7 @@ header {
 
 .name {
     font-family: 'streamster';
-    font-size: 7em;
+    font-size: 7rem;
     color: rgba(221, 14, 159, 0.671);
     text-shadow: 5px 5px 10px rgba(19, 200, 255, 0.925);
     margin-left: 4%;
@@ -62,7 +62,7 @@ main {
 
 section {
     border-radius: 40px;
-    max-width: 60%;
+    width: 40vmax;
     display: flex;
     flex-direction: column;
     justify-content: center;
